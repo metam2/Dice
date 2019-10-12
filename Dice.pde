@@ -63,8 +63,6 @@ void draw()
       sum += d.num;
     }
   }
-  
-  System.out.println(rollTime);
 }
 void mousePressed()
 {
