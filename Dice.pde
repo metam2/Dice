@@ -1,5 +1,5 @@
 
-int diceX, diceY, rollTime;
+int diceX, diceY, rollTime, sum;
 float diceLength;
 
 void setup()
@@ -22,6 +22,7 @@ void setup()
 }
 void draw()
 {
+
   if(rollTime == 10)
   {
     fill(230);
@@ -30,9 +31,7 @@ void draw()
   if(rollTime > 0)
     loop();
   if(rollTime == 0)
-  {
      noLoop();
-  }
   else
     rollTime--;
     
@@ -61,7 +60,7 @@ void draw()
       Die d = new Die(x, y);
       d.roll();
       d.show();
-      
+      sum += d.num;
     }
   }
   
