@@ -61,9 +61,10 @@ void draw()
       d.roll();
       d.show();
       sum += d.num;
-      document.getElementById("output").innerHTML = sum;
     }
   }
+  //document.getElementById("output").innerHTML = sum;
+  System.out.println(sum);
 }
 void mousePressed()
 {
