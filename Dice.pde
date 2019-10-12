@@ -22,7 +22,7 @@ void setup()
 }
 void draw()
 {
-
+  sum = 0;
   if(rollTime == 10)
   {
     fill(230);
