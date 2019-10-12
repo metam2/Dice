@@ -64,6 +64,7 @@ void draw()
     }
   }
   document.getElementById("output").innerHTML = sum;
+  document.getElementById("dice").innerHTML = diceX * diceY;
 }
 void mousePressed()
 {
@@ -71,7 +72,6 @@ void mousePressed()
   
   diceX = (int)(Math.random() * 20 + 1);
   diceY = (int)(Math.random() * 20 + 1);
-  document.getElementById("dice").innerHTML = diceX * diceY;
   if(diceX > diceY)
   {
     diceLength = (width * 0.9 / diceX);
