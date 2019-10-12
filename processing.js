@@ -10,7 +10,8 @@
 
 ***/
 
-(function(window, document, Math, undef) {
+(window.onload = function(window, document, Math, undef) {
+
   var nop = function() {};
   var debug = function() {
     if ("console" in window) return function(msg) {
