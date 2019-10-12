@@ -64,7 +64,7 @@ void draw()
     }
   }
   document.getElementById("output").innerHTML = sum;
-  document.getElementById("dice").innerHTML = diceX * diceY;
+  document.getElementById("numDice").innerHTML = diceX * diceY;
 }
 void mousePressed()
 {
