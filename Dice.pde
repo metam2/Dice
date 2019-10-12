@@ -61,6 +61,7 @@ void draw()
       d.roll();
       d.show();
       sum += d.num;
+      document.getElementById("output").innerHTML = sum;
     }
   }
 }
